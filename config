@@ -225,7 +225,9 @@ for_window [class="Xfburn"] floating enable
 # new apps floating sticky
 for_window [class="(?i)Franz"] floating enable sticky enable border normal
 for_window [class="(?i)Teamviewer"] floating enable sticky enable border normal
+for_window [class="(?i)Clementine"] floating enable sticky enable border normal
 for_window [class="(?i)Geary"] floating enable sticky enable border normal
+for_window [title="WhatsApp.*"] floating enable sticky enable border normal
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
